@@ -1,0 +1,141 @@
+/* style.css */
+
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Section Styles */
+.section-content {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f1f3f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.section-content h2 {
+    color: #343a40;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.section-content p {
+    font-size: 16px;
+    color: #495057;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Radio Buttons */
+.form-check.custom-radio {
+    margin-bottom: 10px;
+}
+
+.form-check-input:checked + .form-check-label {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: 16px;
+}
+
+/* Buttons */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #a71d2a;
+}
+
+.btn-confirm:disabled {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+    color: #6c757d;
+}
+
+/* Result Styles */
+.result {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #dc3545;
+    font-size: 24px;
+}
+
+.result p {
+    font-size: 18px;
+    color: #495057;
+}
+
+.result-survival h2 {
+    color: #28a745;
+}
+
+.result-survival p {
+    font-size: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .section-content {
+        padding: 15px;
+    }
+}
